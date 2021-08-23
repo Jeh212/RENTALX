@@ -1,7 +1,8 @@
+/* eslint-disable prettier/prettier */
 import { Specification } from "../../models/Specification";
 import {
   ICreateSpecificationDTO,
-  ISpecificationRepository,
+  ISpecificationRepository
 } from "../ISpecificationRepository";
 
 class SpecificationsRepository implements ISpecificationRepository {

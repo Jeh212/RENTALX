@@ -1,10 +1,10 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Router } from "express";
 import multer from "multer";
-
 import { createCategoryController } from "../modules/cars/useCases/createCategory";
 import { importCategoryController } from "../modules/cars/useCases/importCategory";
 import { listCategoriesController } from "../modules/cars/useCases/listCategories";
+
 
 const categoriesRoutes = Router();
 
